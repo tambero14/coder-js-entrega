@@ -1,0 +1,44 @@
+[
+    {
+        "puesto": "Project Manager",
+        "empresa": "Welocalize",
+        "duracion": "06/2023 - Presente",
+        "descripcion": "Encargado de proyectos de traducción de determinados clientes. Responsabilidad absoluta en todo el proceso de traducción, desde que el cliente envía el requerimiento específico hasta su entrega total. Incluye organización del proyecto, terciarización y entrega final."
+
+    },
+    {
+        "puesto": "Project Manager",
+        "empresa": "Acolad",
+        "duracion": "06/2021 - 06/2023",
+        "descripcion": "Acolad es una de las empresas de traducción más reconocidas en campo de life-sciences. Entré con el puesto de Project Manager y estuve a cargo de proyectos de uno de los laboratorios mas importantes del mundo. Los proyectos de traducción de life-sciences incluyen procesos muy complejos para garantizar la calidad de las entregas."
+
+    },
+    {
+        "puesto": "Project Manager Ssr.",
+        "empresa": "RWS",
+        "duracion": "2017 - 2021",
+        "descripcion": "Mi primera experiencia como Project Manager fue en RWS. Estuve asignado a clientes del área de marketing online. Fue una experiencia sumamente enriquecedora ya que tuve la posibilidad de ser responsable total de los proyectos de traducción, tanto de la parte de ejecución, salúd financiera y calidad de las entregas."
+
+    },
+    {
+        "puesto": "Project Team Coordinator",
+        "empresa": "RWS",
+        "duracion": "2016 - 2017",
+        "descripcion": "Como PTC, mi tarea consistía en ayudar al Project Manager en determinadas facetas del workflow de traducción, como por ejemplo la parte financiera. Fue un primer acercamiento a lo que implicaría manejar las expectativas del cliente."
+
+    },
+    {
+        "puesto": "Localization Lead",
+        "empresa": "RWS",
+        "duracion": "2012 - 2017",
+        "descripcion": "Como Loc. Lead, mis tareas consistían básicamente en la ejecución técnica de los proceso de traducción, como por ejemplo preparar archivos, correr procesos de calidad y todo lo que refiere a la manipulación de software de traducción. Asímismo, implicaría mucho contacto con traductores y linguistas en general de todas partes del mundo."
+
+    },
+    {
+        "puesto": "Traductor freelancer",
+        "empresa": "Autónomo",
+        "duracion": "2010 - 2011",
+        "descripcion": "Ni bien obtuve mi título de traductor, me lancé en mi carrera como freelancer, primeramente proveyendo de mis servicios a empresas de traducción locales y también a particulares."
+
+    }
+]

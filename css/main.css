@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23272A;
+}
+
+header {
+  background-color: #0E141B;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+  height: 80px;
+}
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-color: aliceblue;
+}
+header nav ul {
+  display: flex;
+  color: whitesmoke;
+  list-style: none;
+  gap: 10px;
+}
+header nav ul li a:link, header nav ul li a:visited {
+  font-family: "Lexend Deca", sans-serif;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: small;
+  text-decoration: none;
+}
+header nav.navbar div.container-fluid div.collapse ul.navbar-nav li.nav-item a.nav-link:hover, header li.nav-link a:active {
+  color: crimson;
+}
+
+.bg-light {
+  background-color: #0E141B !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: whitesmoke !important;
+}
+
+button.navbar-toggler {
+  background-color: whitesmoke !important;
+}
+
+
+/* estilos de main */
+main.experiencia {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  margin: 10px;
+}
+
+main.experiencia div.titulo h1 {
+  text-align: left;
+  margin-left: 150px;
+}
+
+main.experiencia div.contenido-centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main.experiencia div.contenido-centrado section.experiencia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta {
+  display: flex;
+  align-items: flex-start;
+  background-color: #0E141B;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 50px;
+  width: 100%;
+}
+
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.imagen {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content {
+  flex: 1;
+}
+
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content h3.puesto {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 130% ;
+  color: #ff5277 ;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.empresa,
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.duracion,
+main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.descripcion{
+  font-family: "Libre Baskerville", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 100%;
+  color: whitesmoke;
+  text-align: justify;
+}
+
