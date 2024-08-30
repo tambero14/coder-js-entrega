@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #23272A;
 }
@@ -51,58 +52,56 @@ button.navbar-toggler {
   background-color: whitesmoke !important;
 }
 
+h1 {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 450%;
+  color: whitesmoke;
+  text-align: left;
+}
 
-/* estilos de main */
+
 main.experiencia {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   gap: 10px;
   margin: 10px;
-}
-
-main.experiencia div.titulo h1 {
-  text-align: left;
-  margin-left: 150px;
-}
-
-main.experiencia div.contenido-centrado {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-main.experiencia div.contenido-centrado section.experiencia {
+div.contenido.centrado {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  border: 0;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta {
+section {
+  display: none;
+}
+
+div.tarjeta {
   display: flex;
   align-items: flex-start;
   background-color: #0E141B;
   padding: 20px;
   border-radius: 10px;
-  gap: 50px;
-  width: 100%;
+  gap: 75px;
+  width: 80%;
+  margin-bottom: 50px;
 }
 
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.imagen {
-  width: 100%;
-  height: auto;
-  max-width: 100px;
-  object-fit: contain;
+img {
+  display: none;
 }
 
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content {
-  flex: 1;
-}
 
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content h3.puesto {
+h3 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 550;
   font-style: normal;
@@ -112,9 +111,7 @@ main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.cont
   margin-bottom: 20px;
 }
 
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.empresa,
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.duracion,
-main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.content p.descripcion{
+p.empresa, p.duracion, p.descripcion {
   font-family: "Libre Baskerville", serif;
   font-weight: 550;
   font-style: normal;
@@ -123,3 +120,18 @@ main.experiencia div.contenido-centrado section.experiencia div.tarjeta div.cont
   text-align: justify;
 }
 
+
+button {
+  width: 15%;
+  font-family: "Libre Baskerville", serif;
+  font-size: large;
+  text-decoration-color: #ff5277;
+  font-style: normal;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.custom-confirm-button {
+  width: 100%; 
+  max-width: 300px; 
+}
